@@ -1,5 +1,7 @@
 # Character-manager-js
 
+Project creat and manage by [**Sebastien Voos**](https://github.com/VOOSsebastien) & [**OLivier d'Ardenne**](https://github.com/MrOlivierdA)
+
 ## About this project:
 
 | Challenge Parameters | Challenge Details           |
