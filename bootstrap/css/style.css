@@ -4,7 +4,7 @@ body {
   padding-top: 56px;
   background: linear-gradient(#dfdecb 50%, #dfdecb 50%);
 }
-
+/* ------header------ */
 header {
   background-image: url(https://groupeavs.com/wp-content/uploads/2021/01/HEROS-1-e1609948080333.jpg);
   box-shadow: 0 2px 12px 5px rgba(196, 0, 0, 0.493);
@@ -20,7 +20,12 @@ h1 {
   font-family: "Lobster", cursive;
 }
 .jumbotron {
-  background-image: url(https://cdn.wallpapersafari.com/23/96/0JCwuP.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://images2.alphacoders.com/446/thumb-1920-446666.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -69,8 +74,6 @@ h4 {
   -webkit-background-clip: text;
   color: transparent;
 }
-
-/* ------header------ */
 
 /* ------footer------ */
 
