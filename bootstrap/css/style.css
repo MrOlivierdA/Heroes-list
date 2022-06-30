@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-body {
-  padding-top: 25px;
-  background-image: url(https://us.123rf.com/450wm/studiostoks/studiostoks1609/studiostoks160900066/62213255-dessin-anim%C3%A9-explosion-fond-pop-art-jaune-r%C3%A9tro-bande-dessin%C3%A9e-illustration.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 /* ------header------ */
 header {
   background-image: url(https://groupeavs.com/wp-content/uploads/2021/01/HEROS-1-e1609948080333.jpg);
@@ -39,6 +31,13 @@ h1 {
 }
 
 /* ------Body------ */
+body {
+  padding-top: 25px;
+  background-image: url(https://us.123rf.com/450wm/studiostoks/studiostoks1609/studiostoks160900066/62213255-dessin-anim%C3%A9-explosion-fond-pop-art-jaune-r%C3%A9tro-bande-dessin%C3%A9e-illustration.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 #long-description {
   max-height: 100px;
