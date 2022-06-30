@@ -101,6 +101,14 @@ h4 {
   color: transparent;
 }
 
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align-last: center;
+}
 /* ------footer------ */
 
 .search-text .input-search {
