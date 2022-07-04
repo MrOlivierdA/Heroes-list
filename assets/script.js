@@ -42,6 +42,7 @@ callAllFunctions.then(() => {
   createCharacter();
   editCharacter();
   deleteCharacter();
+  searchBar();
 });
 
 // open character card
@@ -210,16 +211,27 @@ function deleteCharacter() {
 }
 //search bare
 
-const searchUser = document.querySelector("#search");
-
-let users = [];
-
-searchUser.addEventListener("input", (e) => {
-  const element = e.target.value.toLowerCase();
-
-  const newUser = users.filter((user) =>
-    user.id.toLowerCase().includes(element)
+function searchBar() {
+  const longDescriptionButton = document.getElementsByClassName(
+    "long-description-button"
   );
 
-  showUsers(newUser);
-});
+  for (let i = 0; i < longDescriptionButton.length; i++) {
+    const search = document.getElementsByClassName("btn-search");
+    search.addEventListener("click", function () {
+      let modalName = document.getElementById("name-modal");
+      let modalShortDescription = document.getElementById(
+        "short-modal-description"
+      );
+      let modalLongDescription = document.getElementById(
+        "long-modal-description"
+      );
+      let modalImage = document.getElementById("modal-image");
+
+      modalName.textContent = cardName[i].textContent;
+      modalShortDescription.textContent = shortDescription[i].textContent;
+      modalLongDescription.textContent = longDescription[i].textContent;
+      modalImage.src = cardImage[i].src;
+    });
+  }
+}

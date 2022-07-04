@@ -33,7 +33,7 @@ h1 {
 /* ------Body------ */
 body {
   padding-top: 25px;
-  background-image: url(https://us.123rf.com/450wm/studiostoks/studiostoks1609/studiostoks160900066/62213255-dessin-anim%C3%A9-explosion-fond-pop-art-jaune-r%C3%A9tro-bande-dessin%C3%A9e-illustration.jpg);
+  background-image: url(https://img.freepik.com/free-vector/vintage-pop-art-yellow-orange-background-superhero-background-comics_185004-339.jpg?w=2000);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,6 +104,13 @@ h4 {
   border-radius: 10%;
 }
 
+#modal-image {
+  border-radius: 50%;
+  background-size: cover;
+  margin-top: 20px;
+  box-shadow: 0 2px 12px 5px rgba(196, 0, 0, 0.493);
+}
+
 .modal-content {
   display: flex;
   flex-direction: column;
@@ -111,7 +118,27 @@ h4 {
   align-items: center;
   text-align: center;
   text-align-last: center;
+  box-shadow: 0 2px 12px 5px rgba(255, 0, 0, 0.622);
 }
+
+.modal {
+  background: url(https://i.pinimg.com/736x/80/ee/0d/80ee0d6e8cc8c7d61c4fc80b58ae10e2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.modal-body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.modal-content {
+  background-color: white;
+  opacity: 0.9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* ------footer------ */
 
 .search-text .input-search {
@@ -132,7 +159,7 @@ h4 {
   background: linear-gradient(#2c2c44, #8787c4);
   border: 1px solid rgb(3, 45, 255);
   color: #fff;
-  padding: 10px 22px;
+  padding: 10px 20px;
 }
 
 /* ------MediaQueries------ */
