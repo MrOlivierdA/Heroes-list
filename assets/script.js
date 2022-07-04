@@ -208,3 +208,18 @@ function deleteCharacter() {
     });
   }
 }
+//search bare
+
+const searchUser = document.querySelector("#search");
+
+let users = [];
+
+searchUser.addEventListener("input", (e) => {
+  const element = e.target.value.toLowerCase();
+
+  const newUser = users.filter((user) =>
+    user.id.toLowerCase().includes(element)
+  );
+
+  showUsers(newUser);
+});
