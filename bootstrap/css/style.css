@@ -76,6 +76,7 @@ body {
 }
 .card.h-100 {
   border: 5px ridge red;
+  background-color: #f1f1f1ae;
 }
 
 .h-100:hover {
